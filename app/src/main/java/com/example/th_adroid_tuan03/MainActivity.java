@@ -20,6 +20,20 @@ public class MainActivity extends AppCompatActivity {
 
         listGoods = new ArrayList<>();
         listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods = new ArrayList<>();
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
+        listGoods.add(new Goods("Cá nấu lẩu","Shop Devang",R.drawable.ca_nau_lau));
 
         cusAdapter = new CustomGoodsAdapter(this,R.layout.item_listview,listGoods);
         lvGoods.setAdapter(cusAdapter);
